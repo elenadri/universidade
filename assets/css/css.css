@@ -1,0 +1,50 @@
+body {
+    margin:0;
+    font-family: fantasy;  
+    margin-top: 38px;
+    background-color: rgb(255, 255, 255);
+
+    }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #1f618d ;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  padding-top: 40px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: #FFC300 ;
+}
+
+.active {
+    color: #FFC300 ;
+    font-weight: bold;
+}
+
+.contenido{
+margin: 10px}
+
+.img-menu{
+    margin-top: 10px;
+    width: 160px;
+    
+}
