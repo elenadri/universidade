@@ -22,6 +22,7 @@ li {
   float: right;
 }
 
+
 li a {
   display: block;
   color: white;
@@ -41,10 +42,41 @@ li a:hover:not(.active) {
 }
 
 .contenido{
-margin: 10px}
-
+  margin: 10%;
+}
 .img-menu{
     margin-top: 10px;
     width: 160px;
     
+}
+
+
+h1{
+  font-weight: bold;
+  font-size:70px;
+  color:#1f618d;
+}
+
+p{
+  font-size:30px;
+  color:#1f618d;
+}
+
+footer{
+  color: beige;
+  background-color: #1f618d;
+height: 3%;  
+}
+.box{
+  float: left;
+  height: 200px;
+  width: 28%;
+  margin-left: 4%;
+  border-radius: 15px;
+  border-width: 10px;
+  border-color: #FFC300;
+  border-style: solid;
+  border-width: 5px;
+
+
 }
